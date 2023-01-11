@@ -14,11 +14,11 @@ print(mapsquared)
 
 
 def multiply(x):
-    return (x * x)
+    return x * x
 
 
 def add(x):
-    return (x + x)
+    return x + x
 
 
 print()

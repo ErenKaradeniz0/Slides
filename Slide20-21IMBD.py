@@ -3,14 +3,14 @@ def main():
     file = open("text/imdb.txt")
     line = search(file, search_word)
 
-    if (len(line) > 0):
+    if len(line) > 0:
         print("Rank\tvotes\tRating\tTitle")
         matches = 0
-        while (len(line) > 0):
+        while len(line) > 0:
             display(line)
             line = search(file, search_word)
             matches += 1
-            print(str(matches)+" matches. ")
+        print(str(matches)+" matches. ")
 
 
 def get_word():
@@ -23,7 +23,7 @@ def get_word():
 def search(file, search_word):
     for line in file:
         line_lower = line.lower()
-        if (search_word in line):
+        if (search_word in line_lower):
             return line
         return ""
 

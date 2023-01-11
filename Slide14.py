@@ -47,19 +47,19 @@ name = "Daffy Duck"
 x = 3
 y = 5
 point = "("+str(x)+","+str(y)+")"
-# print(point)
+print(point)
 
-# name = "Ultimate"
-# print(name[0], name[7], name[-8], name[-1])
-# print(name[0:4], name[4:], name[:3])
-# print(name[-4:-1], name[6:], name[:-2])
+name = "Ultimate"
+print(name[0], name[7], name[-8], name[-1])
+print(name[0:4], name[4:], name[:3])
+print(name[-4:-1], name[6:], name[:-2])
 
-# print(name.find("mate"))
-# print(name.find("team"))
-# print(name.lower())
-# print(name.upper())
-# book = "Building Python Programs"
-# print(book[9:15])
+print(name.find("mate")) #return 4
+print(name.find("team")) #return -1
+print(name.lower())
+print(name.upper())
+book = "Building Python Programs"
+print(book[9:15])
 
 
 def name_border(name, size):
@@ -90,4 +90,4 @@ def ceaser_cipher(message, key):
         print(chr(ord(message[i])+key), end="")
 
 
-# ceaser_cipher("Brad thinks Angelina is cute",3)
+ceaser_cipher("Brad thinks Angelina is cute",3)

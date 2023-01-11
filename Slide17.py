@@ -3,7 +3,7 @@ factor = 2
 while n % factor != 0:
     factor += 1
 
-# print("First factor is", factor)
+print("First factor is", factor)
 
 SENTINEL = "quit"
 

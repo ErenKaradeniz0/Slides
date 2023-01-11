@@ -27,8 +27,8 @@ print(word3)
 
 email = ["money", "rain", "money"]
 spam_words = ["free", "money", "earn"]
-spamtest = [1 for word in email if word in spam_words]
-if len(spamtest) > 1:
+spam_test = [1 for word in email if word in spam_words]
+if len(spam_test) > 1:
     print("Spam Mail")
 
 coin = [randint(0, 1) for i in range(0, 10)]

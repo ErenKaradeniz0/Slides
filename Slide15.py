@@ -1,5 +1,5 @@
 def print_letters(word):
-    for letter in word[0:len(word)-1]:
+    for letter in word[:len(word)-1]:
         print(letter+",", end="")
     print(word[-1])
 
@@ -8,7 +8,7 @@ print_letters("Atmosphere")
 
 
 def print_primes(max):
-    if (max < 2):
+    if max < 2:
         print()
     else:
         print(2, end="")

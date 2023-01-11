@@ -21,8 +21,8 @@ def q2():
         belgium += float(lines[i])
         usa += float(lines[i+1])
         count += 1
-    print("Belgium average:", (belgium/count), "Ş/gal")
-    print("USA average:", (usa/count), "Ş/gal")
+    print("Belgium average:", (belgium/count), "$/gal")
+    print("USA average:", (usa/count), "$/gal")
 
 q1()
 print("\n")
